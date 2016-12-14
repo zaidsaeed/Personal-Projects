@@ -1,0 +1,30 @@
+Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+========== RESTART: C:\Users\Zaid Saeed\Desktop\a5_part1_8621155.py ==========
+>>> 
+1A)
+largest_34([1000, 1, 100, 2, 99, 200, -100])
+199
+Python’s sort does roughly n*log_2 n operations. And since that's the only noteworthy function being called,
+so the function's runtime is n*log_2_(n) operations.
+
+1B) sort function = n*log_2_(n)
+sum function = n
+total function = (n^2)*log_2_(n)
+
+1C)
+1 for loop = n
+sorted = n*log_2_(n)
+The rest of the functions can be overlooked because they run so quickly.
+total runtime of function = (n^2)*log_2_(n)
+
+1D) 3 for loops = n^3 runtime
+
+>>> sum_tri([1,5,8,2,6,55,90],103)
+True
+>>> sum_tri([-1,1,5,8,2,6],-3)
+True
+>>> sum_tri([-10,2],1000)
+False
+>>> 
